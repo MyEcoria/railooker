@@ -4,5 +4,4 @@ translate.json
 /node_modules
 /coverage
 /build
-/dist
 .idea/
