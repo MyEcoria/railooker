@@ -109,7 +109,7 @@ const HomePage = () => {
     <>
       <Banner />
       <Row gutter={[12, 0]}>
-        <Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 1 }} style={{ width: "100%" }}>
+        {/*<Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 1 }} style={{ width: "100%" }}>
           <Card
             size="small"
             title={t("pages.home.network")}
@@ -161,7 +161,7 @@ const HomePage = () => {
                     tooltip={t<string>("tooltips.transactionFees")}
                     value={0}
                   />
-                ) : null} */}
+                ) : null}
 
                 <LoadingStatistic
                   isLoading={!send?.tps}
@@ -182,7 +182,7 @@ const HomePage = () => {
               </Col>
             </Row>
           </Card>
-        </Col>
+        </Col>*/}
 
         <Col
           xs={{ span: 24, order: 2 }}
@@ -237,7 +237,7 @@ const HomePage = () => {
           </Card>
         </Col>
 
-        <Col
+        {/*<Col
           xs={{ span: 24, order: 1 }}
           md={{ span: 12, order: 3 }}
           lg={6}
@@ -280,7 +280,7 @@ const HomePage = () => {
               </Col>
             </Row>
           </Card>
-        </Col>
+        </Col>*/}
       </Row>
       <RecentTransactions />
     </>

@@ -40,7 +40,7 @@ const Banner: React.FC = () => {
         <img
           alt="Nano block explorer"
           height="24px"
-          src={`/nano-${theme === Theme.DARK ? "dark" : "light"}.png`}
+          src={`/logo.png`}
           style={{ marginRight: "12px" }}
         />
         <Title
@@ -69,7 +69,7 @@ const Banner: React.FC = () => {
 
         <Button
           ghost
-          href="https://pasino.com/?user_id=18828"
+          href="https://nanbet.io/?r=railooker"
           target="_blank"
           style={{ padding: "0 10px", display: "flex" }}
           onClick={() => {
@@ -105,11 +105,12 @@ const Banner: React.FC = () => {
               //@ts-ignore
               style={{ marginLeft: "6px", color: "gold", fontWeight: "500" }}
             >
-              Pasino
+              NanBet
             </Text>
           </div>
         </Button>
 
+        {/*}
         <Link to={"/nanobrowserquest"}>
           <Button
             ghost
@@ -143,6 +144,7 @@ const Banner: React.FC = () => {
             NanoQuakeJS
           </Button>
         </Link>
+        */}
 
         {/* <Button
           ghost

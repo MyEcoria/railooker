@@ -92,8 +92,8 @@ export const getPrefixedAccount = (address: string) => {
   let account = address.toLowerCase();
   if (!address.includes("_")) {
     account = `nano_${address}`;
-  } else if (address.startsWith("xrb_")) {
-    account = address.replace("xrb_", "nano_");
+  } else if (address.startsWith("nano_")) {
+    account = address.replace("nano_", "xrb_");
   }
   return account;
 };

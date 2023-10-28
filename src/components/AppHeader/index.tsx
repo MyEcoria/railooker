@@ -47,7 +47,7 @@ const AppHeader: React.FC = () => {
             }}
           >
             <Link to="/" style={{ whiteSpace: "nowrap", marginRight: "10px" }}>
-              NanoLooker
+              RaiLooker
             </Link>
           </Col>
           <Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 2 }}>
@@ -64,10 +64,6 @@ const AppHeader: React.FC = () => {
                 <Menu.Item key="representatives">
                   {t("menu.representatives")}
                   <Link to="/representatives" />
-                </Menu.Item>
-                <Menu.Item key="developer-fund">
-                  {t("menu.developerFund")}
-                  <Link to="/developer-fund" />
                 </Menu.Item>
                 <Menu.Item key="known-accounts">
                   {t("menu.knownAccounts")}

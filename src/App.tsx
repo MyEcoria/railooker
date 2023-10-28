@@ -57,7 +57,7 @@ const App: React.FC = () => {
     >
       <Helmet>
         <html lang={i18next.language} />
-        <title>NanoLooker {t("common.blockExplorer")}</title>
+        <title>RaiLooker {t("common.blockExplorer")}</title>
         <meta name="description" content="Block explorer of the Nano cryptocurrency" />
         <meta name="theme-color" content={themeContext === Theme.DARK ? "#131313" : "#eff2f5"} />
       </Helmet>
@@ -72,8 +72,8 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/representatives" component={RepresentativesPage} />
-            <Route exact path="/developer-fund" component={DeveloperFundPage} />
-            <Route path="/developer-fund/transactions" component={DeveloperFundTransactionsPage} />
+            {/*<Route exact path="/developer-fund" component={DeveloperFundPage} />
+            <Route path="/developer-fund/transactions" component={DeveloperFundTransactionsPage} />*/}
             <Route path="/known-accounts" component={KnownAccountsPage} />
             <Route path="/distribution" component={DistributionPage} />
             <Route path="/exchange-tracker" component={ExchangeTrackerPage} />
