@@ -109,8 +109,8 @@ const HomePage = () => {
     <>
       <Banner />
       <Row gutter={[12, 0]}>
-        {/*<Col xs={{ span: 24, order: 3 }} md={{ span: 12, order: 1 }} style={{ width: "100%" }}>
-          <Card
+        <Col>
+        <Card
             size="small"
             title={t("pages.home.network")}
             extra={<Link to="/statistics/social">{t("pages.home.viewSocialEngagement")}</Link>}
@@ -153,8 +153,7 @@ const HomePage = () => {
                   tooltip={t<string>("tooltips.avgConfirmationTime")}
                   value={new BigNumber(average).dividedBy(1000).toNumber()}
                 />
-
-                {/* {!isSmallAndLower ? (
+                {!isSmallAndLower ? (
                   <LoadingStatistic
                     isLoading={false}
                     title={t("pages.home.transactionFees")}
@@ -182,7 +181,7 @@ const HomePage = () => {
               </Col>
             </Row>
           </Card>
-        </Col>*/}
+        </Col>
 
         <Col
           xs={{ span: 24, order: 2 }}
