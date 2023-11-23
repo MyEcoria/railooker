@@ -1,14 +1,14 @@
 [
   {
-    "account": "nano_1111111111111111111111111111111111111111111111111111hifc8npp",
+    "account": "xro_1111111111111111111111111111111111111111111111111111hifc8npp",
     "alias": "Burn"
   },
   {
-    "account": "xrb_1nanswapnscbjjr6nd8bjbyp7o3gby1r8m18rbmge3mj8y5bihh71sura9dx",
+    "account": "xro_1nanswapnscbjjr6nd8bjbyp7o3gby1r8m18rbmge3mj8y5bihh71sura9dx",
     "alias": "Nanswap"
   },
   {
-    "account": "xrb_3z4u1upq8e798pj669tki5osyit6jmyzwn6cba56pnsp77hna8ze9gku93np",
+    "account": "xro_3z4u1upq8e798pj669tki5osyit6jmyzwn6cba56pnsp77hna8ze9gku93np",
     "alias": "MyEcoria"
   }
 ]

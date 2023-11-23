@@ -164,7 +164,7 @@ const WhatIsNanoPage: React.FC = () => {
           <li>
             Visit a <Link to={"/faucets"}>Nano Faucet</Link>.
           </li>
-          <li>Fill in your Nano_ address and hit send.</li>
+          <li>Fill in your xro_ address and hit send.</li>
         </ol>
         <p>
           That’s all! To really try it out I’d recommend getting a second wallet such as{" "}

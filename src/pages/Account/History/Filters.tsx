@@ -181,7 +181,7 @@ const Filters: React.FC = () => {
               </Select>
               <Controller
                 render={({ field }) => (
-                  <Input {...field} style={{ flexGrow: 1 }} placeholder="nano_" />
+                  <Input {...field} style={{ flexGrow: 1 }} placeholder="xro_" />
                 )}
                 control={control}
                 name="sender"
@@ -227,7 +227,7 @@ const Filters: React.FC = () => {
               </Select>
               <Controller
                 render={({ field }) => (
-                  <Input {...field} style={{ flexGrow: 1 }} placeholder="nano_" />
+                  <Input {...field} style={{ flexGrow: 1 }} placeholder="xro_" />
                 )}
                 control={control}
                 name="receiver"

@@ -74,7 +74,7 @@ export const formatPublicAddress = (address: string): string => {
 };
 
 // 02LV are not present in addresses
-export const ACCOUNT_REGEX = /((nano|xrb)_)?[13][13-9a-km-uw-z]{59}/;
+export const ACCOUNT_REGEX = /((xro|xro)_)?[13][13-9a-km-uw-z]{59}/;
 export const BLOCK_REGEX = /[0-9A-F]{64}/;
 
 export const isValidAccountAddress = (address: string): boolean =>
@@ -91,9 +91,9 @@ export const getAccountAddressFromText = (text: string): string | null => {
 export const getPrefixedAccount = (address: string) => {
   let account = address.toLowerCase();
   if (!address.includes("_")) {
-    account = `nano_${address}`;
+    account = `xro_${address}`;
   } else if (address.startsWith("nano_")) {
-    account = address.replace("nano_", "xrb_");
+    account = address.replace("nano_", "xro_");
   }
   return account;
 };

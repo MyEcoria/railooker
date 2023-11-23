@@ -154,7 +154,7 @@ const useSocket = ({ account }: { account?: string }) => {
     isForcedClosed = false;
     setIsConnected(false);
 
-    ws = new WebSocket(websocketDomain || "wss://xrb.nanbet.io/ws");
+    ws = new WebSocket(websocketDomain || "wss://explorer.raione.cc/ws");
 
     ws.onopen = () => {
       clearInterval(pingInterval);
