@@ -135,7 +135,7 @@ const HomePage = () => {
                   tooltip={t<string>("tooltips.ledgerSize")}
                   title={t("pages.home.ledgerSize")}
                   suffix={formattedLedgerSize.suffix}
-                  value={new BigNumber(formattedLedgerSize.value).toFormat(2)}
+                  value="<1 GB" // value={new BigNumber(formattedLedgerSize.value).toFormat(2)}
                 />
               </Col>
               <Col xs={24} sm={12}>
