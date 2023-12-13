@@ -165,7 +165,7 @@
       "last24Hours": "Last 24 hours",
       "avgConfirmationTime": "Avg. confirmation time (seconds)",
       "confirmedTransactions": "Confirmed transactions",
-      "transactionFees": "NANO transaction fees",
+      "transactionFees": "XRO transaction fees",
       "exchangeVolume": "Exchange volume",
       "onChainVolume": "On-chain XRO volume",
       "bitcoinTransactionFees": "Bitcoin transaction fees paid to miners",
