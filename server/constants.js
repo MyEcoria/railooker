@@ -53,7 +53,11 @@ const NANOBROWSERQUEST_LEADERBOARD = "NANOBROWSERQUEST_LEADERBOARD";
 const YOUTUBE_PLAYLIST = "YOUTUBE_PLAYLIST";
 const MONGO_USER = process.env.MONGO_USER;
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD;
-const MONGO_URL = `mongodb+srv://myecoria:b7wPvdv9EIZd3xJf@cluster0.svaadot.mongodb.net/?retryWrites=true&w=majority`;
+const MONGO_URL =
+  process.env.NODE_ENV !== "development" && MONGO_USER
+    ? `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@localhost:27017`
+    : `mongodb://localhost:27017`;
+const MONGO_URL = `mongodb://localhost:27017`;
 const MONGO_DB = "nanolooker";
 const MONGO_OPTIONS = { family: 4 };
 
