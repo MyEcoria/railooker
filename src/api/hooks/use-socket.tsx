@@ -115,7 +115,7 @@ const useSocket = () => {
     isForcedClosed = false;
     setIsConnected(false);
 
-    ws = new WebSocket(websocketDomain || "wss://xrb.nanbet.io/ws");
+    ws = new WebSocket(websocketDomain || "wss://explorer.raione.cc/ws");
 
     ws.onopen = () => {
       setIsError(false);
