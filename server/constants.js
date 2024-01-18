@@ -57,7 +57,7 @@ const MONGO_URL =
   process.env.NODE_ENV !== "development" && MONGO_USER
     ? `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@localhost:27017`
     : `mongodb://localhost:27017`;
-const MONGO_URL = `mongodb://localhost:27017`;
+//const MONGO_URL = `mongodb://localhost:27017`;
 const MONGO_DB = "nanolooker";
 const MONGO_OPTIONS = { family: 4 };
 
