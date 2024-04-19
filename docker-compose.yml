@@ -8,13 +8,11 @@ services:
         
     app:
         container_name: railooker
+        image: railooker:latest
         security_opt:
             - "seccomp:unconfined"        
         ports:
             - '3004:3010'
-        build:
-            context: .
-            dockerfile: Dockerfile
         restart: always
         stdin_open: true
         tty: true
