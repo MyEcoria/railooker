@@ -4,7 +4,7 @@ services:
         container_name: railooker_redis
         image: redis:7-alpine
         restart: unless-stopped
-        networks: ['app-network']
+        networks: ['rai-network']
         
     app:
         container_name: railooker
@@ -18,7 +18,7 @@ services:
         restart: always
         stdin_open: true
         tty: true
-        networks: ['app-network']
+        networks: ['rai-network']
 
 networks:
     app-network:
