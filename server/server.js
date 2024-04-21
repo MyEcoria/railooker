@@ -10,7 +10,7 @@ require("./cron/nodeLocations");
 require("./cron/nodeMonitors");
 require("./cron/telemetry");
 require("./cron/ws");
-require("./cron/coingeckoStats");
+//require("./cron/coingeckoStats");
 require("./cron/btcTransactionFees");
 require("./cron/nanotickerStats");
 require("./cron/nanotpsStats");

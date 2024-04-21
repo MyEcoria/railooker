@@ -8,14 +8,16 @@ services:
         
     app:
         container_name: railooker
-        image: railooker:latest
         security_opt:
             - "seccomp:unconfined"        
         ports:
-            - '3004:3010'
+            - '1005:3010'
         restart: always
         stdin_open: true
         tty: true
+        build:
+            context: .
+            dockerfile: Dockerfile
         networks: ['rai-network']
 
 networks:

@@ -18,7 +18,7 @@ let accumulatedVolume = 0;
 let accumulatedLargeTransactionHashes = [];
 
 // https://github.com/cryptocode/nano-websocket-sample-nodejs/blob/master/index.js
-const ws = new ReconnectingWebSocket("ws://localhost:7078", [], {
+const ws = new ReconnectingWebSocket(process.env.NODE_WS, [], {
   WebSocket: WS,
   connectionTimeout: 10000,
   maxRetries: 100000,
